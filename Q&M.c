@@ -122,8 +122,10 @@ int partition(int p, int r)
 
     while (1) 
     {
-        while (i <= r && b[i] < pivot) i++;
-        while (b[j] > pivot) j--;
+        while (i <= r && b[i] < pivot) 
+            i++;
+        while (b[j] > pivot) 
+            j--;
 
         if (i < j) 
         {
